@@ -4,7 +4,7 @@ argumentlist = sys.argv[1:]
 first = argumentlist[0]
 
 if first == '-d':
-    print("Given a valid (IPv4) address, returned defanged version of of that IP address")
+    print("Given a valid (IPv4) address, returned defanged version of of that IP address\nA defanged IP address replaces every period '.' with '[.]'")
 
 elif first == '--help' or first == '-h':
     print('[-d] - description\n[-e] - one example how to use it\n[-args] - arguments throught comma')
@@ -28,8 +28,7 @@ class Solution:
 if first == '-args':
     for el in argumentlist[1:]:
         result = (Solution().defangIPaddr(el))
-        print(f'Input: {el}')
-        print(f'Output: {result}')
+        print(result, '\n')
 
 
 # Input: "0.0.0.1"
