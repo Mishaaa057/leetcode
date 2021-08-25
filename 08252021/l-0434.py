@@ -8,8 +8,8 @@ A segment is defined to be a contiguous sequence of non-space characters.
 
 parser = argparse.ArgumentParser(descr)
 parser.add_argument('-args', type=str, nargs='+', help='Arguments')
-parser.add_argument('-d', nargs='?', help='Show description')
-parser.add_argument('-e', nargs='?', help='Show example how script is working')
+parser.add_argument('-d', nargs='*', help='Show description')
+parser.add_argument('-e', nargs='*', help='Show example how script is working')
 args = parser.parse_args()
 
 class Solution:
