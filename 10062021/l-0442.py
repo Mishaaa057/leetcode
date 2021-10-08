@@ -73,7 +73,7 @@ Example 3:
 		print(result)
 
 	elif args.description:
-		pritn(descr)
+		print(descr)
 
 	elif args.example:
 		print(example)
