@@ -2,9 +2,6 @@
 # Difficulty - [Easy]
 
 
-# 1137. N-th Tribonacci Number
-
-
 from colorama import Fore
 import argparse
 
@@ -73,3 +70,4 @@ Example 2:
 
 if __name__=='__main__':
 	main()
+	
