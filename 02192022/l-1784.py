@@ -2,7 +2,6 @@
 
 import argparse
 from colorama import Fore
-import string
 
 
 def BuildArgParser(descr):
